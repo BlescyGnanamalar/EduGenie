@@ -1,0 +1,20 @@
+EduGenie is a lightweight AI-powered educational assistant that simplifies learning through generative AI. Designed for students of all academic levels, EduGenie enables users to:
+
+Ask questions and receive smart, concise answers
+
+Understand complex concepts through simplified explanations
+
+Generate quizzes from topics or text
+
+Receive personalized learning recommendations
+
+Summarize large educational passages
+
+Built with FastAPI for the backend and a simple HTML+CSS frontend, EduGenie leverages lightweight and cloud-based AI models for local efficiency and cloud power. It works well on devices like the Mac M1, making it accessible to a broad range of learners and developers.
+
+Scenario 1: A student wants to know about oceans and rivers uses EduGenie to ask “Which is the largest ocean?”  
+
+Scenario 2: A student wants to know the level of her understanding of “The Pythagoras Theorem” and clicks “Generate Quiz.”  
+
+Scenario 3: A learner exploring SQL requests a learning path which is a structured plan with beginner to advanced topics, timelines, and suggestions.
+

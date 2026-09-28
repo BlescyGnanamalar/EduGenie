@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EduGenie - AI Educational Assistant</title>
+
+    <link rel="stylesheet"
+          href="/static/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>EduGenie</h1>
+
+        <p class="subtitle">
+            AI-Powered Educational Assistant
+        </p>
+
+
+        <div class="card">
+
+            <h2>Learn with AI</h2>
+
+            <textarea
+                id="inputText"
+                placeholder="Ask a question, enter a topic, or paste educational text..."
+            ></textarea>
+
+
+            <div class="buttons">
+
+                <button
+                    id="askButton"
+                    onclick="askQuestion()">
+                    Ask Question
+                </button>
+
+
+                <button
+                    id="simplifyButton"
+                    onclick="simplifyConcept()">
+                    Simplify Concept
+                </button>
+
+
+                <button
+                    id="quizButton"
+                    onclick="generateQuiz()">
+                    Generate Quiz
+                </button>
+
+
+                <button
+                    id="learningButton"
+                    onclick="generateLearningPath()">
+                    Learning Path
+                </button>
+
+
+                <button
+                    id="summaryButton"
+                    onclick="summarizeText()">
+                    Summarize
+                </button>
+
+            </div>
+
+
+            <div class="answer-container">
+
+                <h2>AI Response</h2>
+
+                <div id="answer">
+                    Your answer will appear here.
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>
